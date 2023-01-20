@@ -1,0 +1,46 @@
+#HomeCont{
+  max-width: 420px;
+  height: 620px;
+  margin: auto;
+  background-color: rgba(228, 204, 240, 0.966);
+}
+#logo{
+    width: 250px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.paraSlogan{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: -200;
+}
+#puppy{
+    width: 180px;
+    height: 150px;
+    margin-left: 110px;
+}
+#loginBtn{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#btn{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#agree{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+#earn{
+    color: rgb(10,199,173);
+    background-color: aquamarine;
+}

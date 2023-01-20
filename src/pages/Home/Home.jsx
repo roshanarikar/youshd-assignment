@@ -1,22 +1,24 @@
 import { Link } from "react-router-dom"
 import logo from "../../pictures/logo.png"
+import puppy from "../../pictures/puppy.png"
+import "./Home.css"
 
 export const Home = () => {
     return(
-        <div>
+        <div id="HomeCont">
             <div>
-              <img src={logo} alt="" />              
+              <img id="logo" src={logo} alt="" />              
             </div>
             <div>
-                <p>Shop. Post. <span>Earn.</span></p>
+                <p className="paraSlogan">Shop. Post. <span id="earn">Earn.</span></p>
             </div>
             <div>
-                <img src="" alt="" />
+                <img id="puppy" src={puppy} alt="" />
             </div>
             <div>
-                <button><Link to="/login">Login/Signup</Link></button>
+                <button id="loginBtn"><Link id="btn" to="/login">Login/Signup</Link></button>
             </div>
-            <div>
+            <div id="agree">
                 <p>By continuing, you agree to our <a href="/">YouShd Privacy Policy</a> and <a href="/">Terms of service.</a></p>
             </div>
         </div>
