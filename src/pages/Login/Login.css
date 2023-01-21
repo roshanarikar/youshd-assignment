@@ -1,0 +1,13 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+#HomeCont{
+    max-width: 420px;
+    height: 620px;
+    margin: auto;
+    background-color: rgba(228, 204, 240, 0.966);
+}
+.space{
+    height: 400px;
+}
