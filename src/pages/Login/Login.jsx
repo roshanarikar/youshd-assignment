@@ -2,6 +2,7 @@ import  { useState } from 'react'
 import PhoneInput from 'react-phone-number-input'
 import "./Login.css"
 import 'react-phone-number-input/style.css'
+import { Link } from 'react-router-dom'
 
 export const Login = () => {
     const [value, setValue] = useState()
@@ -24,7 +25,7 @@ export const Login = () => {
             <div>
                 <div>
                     <div><button>+</button></div>
-                    <div><button>Continue</button></div>
+                    <div><button><Link to="/otp">Continue</Link></button></div>
                 </div>
             </div>
         </div>
